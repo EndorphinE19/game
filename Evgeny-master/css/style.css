@@ -1,0 +1,326 @@
+  .kosmos {
+      padding-top: 25px;
+      margin: 0 auto;
+      max-width: 640px;
+      height: 480px;
+      border: 1px solid rgb(226, 80, 248);
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .kosmos img {
+      max-width: 384px;
+  }
+  
+  form {
+      margin-top: 120px;
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  input {
+      margin-bottom: 20px;
+      width: 290px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: none;
+      border: 2px solid rgb(2226, 80, 248);
+      font-family: arial, sans-serif, helvitica;
+      color: rgb(2226, 80, 248);
+      font-size: 17px;
+      padding-left: 10px;
+  }
+  
+  #send {
+      width: 161px;
+      height: 49px;
+      background-color: white;
+      cursor: pointer;
+  }
+  
+  #send:hover {
+      background-color: rgb(2226, 80, 248);
+      color: white;
+  }
+  
+  footer {
+      margin-top: 66px;
+      background-color: rgb(2226, 80, 248);
+      height: 100px;
+      width: 640px;
+  }
+  
+  table {
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: 1px solid rgb(226, 80, 248);
+  }
+  
+  td {
+      padding: 15px;
+      margin-bottom: -10px;
+      border-left: 1px solid rgb(226, 80, 248);
+      border-right: 1px solid rgb(226, 80, 248);
+      /*border-bottom: 1px solid rgb(226,80,248);*/
+      font-family: arial, sans-serif, helvetica;
+      color: rgb(226, 80, 248);
+      text-align: center;
+      padding: 5px;
+  }
+  
+  .container {
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .coinLine {
+      position: fixed;
+      border: 1px solid gold;
+      width: 680px;
+  }
+  
+  .coin {
+      border-radius: 100px;
+      width: 20px;
+      height: 20px;
+      background-color: gold;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .game {
+      margin-left: 30px;
+      width: 480px;
+      padding-left: 105px;
+      padding-right: 105px;
+      height: 480px;
+      border: 1px solid rgb(226, 80, 248);
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  ul {
+      width: 540px;
+      padding: 0;
+      margin: 0 auto;
+      display: inline;
+      /*display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: space-around;
+      flex-wrap: wrap;*/
+  }
+  
+  .monster {
+      position: relative;
+      float: left;
+      padding-left: 10px;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      text-align: center;
+      /* display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: center;
+      align-items: center;*/
+  }
+  
+  .dead {
+      position: relative;
+      float: left;
+      padding-left: 10px;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 100px;
+      text-align: center;
+  }
+  
+  .info {
+      margin-left: 255px;
+      max-width: 640px;
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: space-between;
+  }
+  
+  .info p {
+      font-family: arial, sans-serif, helvetica;
+      color: rgb(226, 80, 248);
+      font-size: 18px;
+  }
+  
+  .clock {
+      margin: 0;
+      padding: 0;
+      margin-left: 20px;
+  }
+  
+  .clock button {
+      width: 189px;
+      height: 49px;
+      border: 2px solid rgb(226, 80, 248);
+      border-radius: 5px;
+      color: rgb(226, 80, 248);
+      font-family: arial, sans-serif, helvetica;
+      font-size: 20px;
+      background-color: white;
+  }
+  
+  .clock p {
+      text-align: center;
+      color: rgb(226, 80, 248);
+      font-family: arial, sans-serif, helvetica;
+      font-size: 25px;
+  }
+  
+  .clock button:hover {
+      cursor: pointer;
+      background-color: rgb(226, 80, 248);
+      color: white;
+  }
+  
+  li img {
+      width: 50px;
+      height: 50px;
+  }
+  
+  .kor {
+      width: 50px;
+      height: 50px;
+      margin-top: 280px;
+      position: fixed;
+      top: 215px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .Centers {
+      margin: 0 auto;
+      background-color: gold;
+      width: 3px;
+      height: 3px;
+      border-radius: 100px;
+  }
+  
+  .kor img {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+  }
+  
+  .bullet {
+      /* animation: bullet 0.6s ease;
+      animation-fill-mode: both;*/
+  }
+  
+  @keyframes bullet {
+      0% {}
+      100% {
+          display: none;
+          margin-bottom: 400px;
+          margin-top: -400px;
+      }
+  }
+  
+  .bullet {
+      width: 10px;
+      height: 10px;
+      background-color: green;
+      margin: 0;
+      padding: 0;
+      top: 260px;
+      border-radius: 5px;
+      margin-left: 18px;
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .line {
+      border: 1px solid black;
+      width: 100%;
+  }
+  
+  .center {
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+      background-color: gold;
+  }
+  
+  .centerLi {
+      width: 3px;
+      height: 3px;
+      border-radius: 100px;
+      background-color: black;
+  }
+  
+  #result {
+      margin: 0 auto;
+      width: 600px;
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #result div {
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgb(226, 80, 248);
+  }
+  
+  #result div p {
+      width: 200px;
+      text-align: center;
+      color: rgb(226, 80, 248);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-variant: slashed-zero, stacked-fractions;
+  }
+  
+  #result div p:nth-child(2) {
+      border-right: 1px solid rgb(226, 80, 248);
+      border-left: 1px solid rgb(226, 80, 248);
+  }
